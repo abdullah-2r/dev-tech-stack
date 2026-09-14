@@ -19,7 +19,11 @@ function App() {
     <>
      <Nav></Nav>
      <Banner></Banner>
-     <Suspense fallback={<p>Load Techs....</p>}>
+     <Suspense fallback={
+       <div className="container mx-auto py-10 text-center">
+         <p className="text-lg font-medium text-slate-600">Loading technologies...</p>
+       </div>
+     }>
      <Technologies techDataPromise = {techDataPromise}></Technologies>
      </Suspense>
      <Footer></Footer>

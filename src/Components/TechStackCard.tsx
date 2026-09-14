@@ -39,7 +39,7 @@ const TechStackCard = ({ tech, setSelectedStack }: TechStackCardProps) => {
                     <img className='w-12 h-24'
                         src={tech.icon}
                         alt="" />
-                    <span className='bg-pink-200 text-pink-600 py-1 px-3 rounded-[16px]'>{tech.badge}</span>
+                    <span className='bg-pink-100 text-pink-600 py-1 px-3 rounded-[16px]'>{tech.badge}</span>
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title">{tech.name}</h2>
