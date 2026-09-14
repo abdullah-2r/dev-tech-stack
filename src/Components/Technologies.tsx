@@ -1,4 +1,4 @@
-import React, { use } from 'react';
+import { use } from 'react';
 import { useState } from 'react';
 import AvailableTechStack from './AvailableTechStack';
 import type { TechType } from '../Types/TechType';

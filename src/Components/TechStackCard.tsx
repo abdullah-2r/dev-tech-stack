@@ -9,7 +9,7 @@ interface TechStackCardProps {
     setSelectedStack: Dispatch<SetStateAction<TechType[]>>;
 }
 
-const TechStackCard = ({ tech, selectedStack, setSelectedStack }: TechStackCardProps) => {
+const TechStackCard = ({ tech, setSelectedStack }: TechStackCardProps) => {
       const [isSelected, setIsSelected] = useState<boolean>(false);
 
       const handleSelectTech = () => {

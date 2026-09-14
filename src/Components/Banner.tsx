@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="container  mx-auto flex items-center justify-between gap-80">
       <div className="flex flex-col justify-start ">
-        <h1 className="text-[60px] font-extrabold leading-[60px]">
+        <h1 className="text-[60px] font-extrabold leading-15">
           Build Your Ideal <br />
           <span className="  bg-linear-to-r from-[#FE5525] via-[#E22B66] to-[#8438E4] bg-clip-text text-transparent">
             Development Stack
@@ -25,7 +25,7 @@ const Banner = () => {
       </div>
 
       
-        <img src={Img} alt="Development stack illustration" className="w-[1100px]"/>
+        <img src={Img} alt="Development stack illustration" className="w-275"/>
       
     </div>
   )
